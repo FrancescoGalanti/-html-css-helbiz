@@ -124,6 +124,12 @@
 /* Meida */
 
 @media screen and (min-width: 768px) {
+  /* Box-position */
+  .box-position{
+  top: 30%;
+ }
+
+
   /* Colonne */
 
   .col-md-12{
@@ -205,14 +211,23 @@
    margin-left: calc((100% / 12) * 12)
   }
 
-  /* img */
+
+
+
 
 
   }
 
 
 @media screen and (min-width: 1048px) {
+  /* position */
+  .box-position{
+   top: 30%;
+   left: 15%;
+  }
+
   /* Colonne */
+
   .col-lg-12{
    width: 100%;
   }
@@ -291,10 +306,18 @@
   .offset-lg-12{
    margin-left: calc((100% / 12) * 12)
   }
-
+    /* nav-img */
   #block{
    display: block;
   }
 
 
+
+}
+
+@media screen and (min-width: 1200px){
+ .box-position{
+   top: 29%;
+   left: 22%;
+ }
 }

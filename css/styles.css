@@ -27,6 +27,18 @@ font-family: 'Open Sans', sans-serif;
  display: none;
 }
 
+/* header img */
+
+.relative{
+ position: relative;
+}
+
+.nav-img{
+ background-image: url("../img/hero-bg.jpg");
+ height: 400px;
+ background-size: cover;
+ width: auto;
+}
 
 
 
@@ -35,12 +47,27 @@ font-family: 'Open Sans', sans-serif;
 
 
 /* tipography */
+h1{
+ color: white;
+ font-size: 50px;
+}
+
+p{
+ color: white;
+ padding: 20px 0;
+}
+
 li{
  display: inline-block;
  text-align: right;
  padding: 0 10px;
 }
 
+/* padding-list */
+
+.padding-list{
+ padding: 0 3px;
+}
 /* box */
 
 .box{
@@ -52,6 +79,15 @@ li{
 
 .box-right{
  text-align: right;
+}
+
+.box-position{
+ position: absolute;
+}
+
+.box-border{
+ border: none;
+ background-color: inherit;
 }
 
 /* icon */
