@@ -5,52 +5,19 @@
 }
 
 body{
- font-family: sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 
 
 /* Utilietis */
 
-/* tipography */
-h1{
- text-align: center;
- margin: 30px;
-}
-
-h2{
- font-size: 25px;
- padding-top: 15px;
-}
-
-
-p{
- padding-top: 20px;
- font-size: 20px;
-}
 
 /* box */
 
 .box{
  text-align: center;
  padding: 10px;
-
-}
-
-/* Img */
-
-.img-height{
- height: 100px;
- width: 100px;
-}
-
-.img-color{
- background-color: blue;
- border-radius: 50%;
-}
-
-/* container grey */
-
-.container-grey{
- background-color:  #8080801f;
+ border: 1px solid pink;
+ background-color: red;
 }
