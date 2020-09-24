@@ -207,11 +207,9 @@
 
   /* img */
 
-  .box img{
-   height: 150px;
-   width: 150px;
+
   }
-}
+
 
 @media screen and (min-width: 992px) {
   /* Colonne */
@@ -295,10 +293,6 @@
   }
 
 
-  /* img */
-  #img-lg{
-   height: 200px;
-   width: 200px;
-  }
+
 
 }
