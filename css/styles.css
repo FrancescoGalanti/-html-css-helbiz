@@ -23,6 +23,10 @@ font-family: 'Open Sans', sans-serif;
  margin: 50px auto;
 }
 
+.only-desktop{
+ display: none;
+}
+
 
 
 
@@ -34,6 +38,7 @@ font-family: 'Open Sans', sans-serif;
 li{
  display: inline-block;
  text-align: right;
+ padding: 0 10px;
 }
 
 /* box */
@@ -47,4 +52,10 @@ li{
 
 .box-right{
  text-align: right;
+}
+
+/* icon */
+
+i.fas.fa-grip-lines-vertical{
+ padding-left:20px;
 }

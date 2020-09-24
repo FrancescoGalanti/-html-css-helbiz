@@ -211,7 +211,7 @@
   }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1048px) {
   /* Colonne */
   .col-lg-12{
    width: 100%;
@@ -292,7 +292,9 @@
    margin-left: calc((100% / 12) * 12)
   }
 
-
+  #block{
+   display: block;
+  }
 
 
 }
