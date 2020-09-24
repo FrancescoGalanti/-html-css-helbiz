@@ -11,7 +11,7 @@
 /* container */
 
 .container{
- width: 1400px;
+ width: 1170px;
  margin: 0 auto;
  max-width: 100%;
 
@@ -292,11 +292,7 @@
    margin-left: calc((100% / 12) * 12)
   }
 
-  
 
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 
 }
