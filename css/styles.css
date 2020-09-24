@@ -9,15 +9,34 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+/* Header main */
+
+.header-main{
+ margin: 50px auto;
+}
+
+
+
+
 
 /* Utilietis */
 
+
+/* tipography */
+li{
+ display: inline-block;
+ text-align: right;
+}
 
 /* box */
 
 .box{
  text-align: center;
- padding: 10px;
+ padding: 16px;
  border: 1px solid pink;
  background-color: red;
+}
+
+.box-right{
+ text-align: right;
 }
