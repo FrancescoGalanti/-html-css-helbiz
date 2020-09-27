@@ -57,10 +57,24 @@ p{
  padding: 20px 0;
 }
 
+.p-text{
+ color: black;
+ font-size: 25px;
+}
+
 li{
  display: inline-block;
  text-align: right;
  padding: 0 10px;
+}
+
+a{
+ text-decoration: none;
+}
+
+.block{
+ display: block;
+ padding-bottom: 50px;
 }
 
 /* padding-list */
@@ -90,8 +104,19 @@ li{
  background-color: inherit;
 }
 
+
 /* icon */
 
 i.fas.fa-grip-lines-vertical{
  padding-left:20px;
+}
+
+
+
+
+
+/* img */
+
+.height-img{
+ height: 300px;
 }
